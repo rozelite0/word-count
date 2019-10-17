@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>文字カウント</title>
+    <script type="text/javascript" src="system.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-180x180.png">　
+</head>
+<body>
+    <header>
+        <div class="headerInner">
+            <h1 class="title">ふつうの文字カウント</h1>
+        </div>
+    </header>
+
+    <main>
+        <textarea id="countArea" onkeyup="viewStrLen();" cols="30" rows="10"></textarea>
+        <div class="countNumber" id="strLen">0文字</div>
+    </main>
+</body>
+</html>

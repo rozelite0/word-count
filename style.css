@@ -1,0 +1,41 @@
+.headerInner{
+    width: 90%;
+    min-width: 150px;
+    margin: auto;
+    border-bottom: 1px solid #191970;
+}
+
+.title{
+    color:#191970;
+
+}
+
+main {
+    text-align: center;
+}
+
+
+textarea {
+    position: relative;
+    top: 2rem;
+    background-color: transparent;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    box-shadow: none;
+    box-sizing: border-box;
+    height: 300px;
+    min-height: 1rem;
+    padding: 10px;
+    width: 65%;
+    min-width: 350px;
+    font-size: 16px;
+    outline: none;
+}
+
+textarea:focus {
+    border-color: #b0c4de;
+}
+
+.countNumber {
+    position: relative;
+}
